@@ -4,7 +4,7 @@ import java.util.*;
 
 public class HashSet {
   private static void FindcommonElement(String[] arr1,String[] arr2) {
-	  Set<String> set=new HashSet<>();
+	  Set<String> set=(Set<String>) new HashSet();
 	  for(int i=0;i<arr1.length;i++) {
 		  for(int j=0;j<arr2.length;j++) {
 			  if(arr[i]==arr[j]) {
